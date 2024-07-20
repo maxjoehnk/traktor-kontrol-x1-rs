@@ -1,6 +1,6 @@
 use thiserror::Error;
 use std::collections::HashMap;
-use std::fmt::{Debug, Display, Formatter};
+use std::fmt::{Debug, Formatter};
 use std::time::Duration;
 use rusb::{Context, Device, DeviceHandle, UsbContext};
 
